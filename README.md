@@ -7,10 +7,10 @@ Este projeto consiste em duas rotinas desenvolvidas em **Excel VBA** para automa
 
 ## ⚙️ Funcionalidades
 
-🧠 Diferenciais de Engenharia
-Navegação Relativa (Offset): O código não utiliza coordenadas fixas de colunas. Ele calcula a posição final do relatório dinamicamente, garantindo que a automação continue funcionando mesmo se o sistema Linear adicionar novas colunas no futuro.
-Sanitização Automática (ETL): Inclui uma rotina de limpeza que remove cabeçalhos inúteis e converte strings em valores numéricos, garantindo a integridade dos cálculos matemáticos.
-Persistência de Dados (Snapshots): Utiliza a técnica de converter fórmulas em valores estáticos após o processamento, registrando o histórico do estoque com carimbo de data sem risco de alteração posterior por recalculo automático.
+###🧠 Diferenciais de Engenharia
+- Navegação Relativa (Offset): O código não utiliza coordenadas fixas de colunas. Ele calcula a posição final do relatório dinamicamente, garantindo que a automação continue funcionando mesmo se o sistema Linear adicionar novas colunas no futuro.
+- Sanitização Automática (ETL): Inclui uma rotina de limpeza que remove cabeçalhos inúteis e converte strings em valores numéricos, garantindo a integridade dos cálculos matemáticos.
+- Persistência de Dados (Snapshots): Utiliza a técnica de converter fórmulas em valores estáticos após o processamento, registrando o histórico do estoque com carimbo de data sem risco de alteração posterior por recalculo automático.
 
 ### 🧾 Cotação de Pedidos (`Sub Cotacao_Fernando`)
 - Abre automaticamente planilhas externas contendo pedidos.
